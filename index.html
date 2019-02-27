@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Material Design practice</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1 id="material">Material Design Practice</h1>
+	<span>
+		<div id="first">
+			
+			<p>
+				Hello
+			</p>
+
+		</div>
+		<div id="second">
+			<p>
+			World
+		</p>
+		</div>
+					
+	</span>
+	<button id="okay" onclick="okay()">Okay! I understand.</button><br>
+	<button id="no" onclick="no()">I don't get it.</button>
+<script type="text/javascript">
+	function okay()
+	{
+		document.getElementById("material").innerText = "I AM GLAD YOU DO"
+	}
+	function no()
+	{
+		document.getElementById("material").innerText = "MAYBE YOU ARE JUST DUMB";
+	}
+</script>
+</body>
+</html>
